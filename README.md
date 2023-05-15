@@ -9,7 +9,7 @@ If we think about the commonly used CRUD pattern (Create-Read-Update-Delete), us
 
 The following image illustrates how this works:
 
-CQRS Diagram
+#CQRS Diagram#
 
 As we can see, the Application simply separates the query and command models. The CQRS pattern makes no formal requirements of how this separation occurs. It could be as simple as a separate class in the same application (as we’ll see shortly with MediatR), all the way up to separate physical applications on different servers. That decision would be based on factors such as scaling requirements and infrastructure, so we won’t go into that decision path today.
 
