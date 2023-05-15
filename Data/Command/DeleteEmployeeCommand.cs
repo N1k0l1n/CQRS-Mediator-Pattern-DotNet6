@@ -2,7 +2,7 @@
 
 namespace Cqrs.Data.Command
 {
-    public class DeleteEmployeeCommand : IRequest<int>
+    public sealed class DeleteEmployeeCommand : IRequest<int>
     {
         public int Id { get; set; }
     }

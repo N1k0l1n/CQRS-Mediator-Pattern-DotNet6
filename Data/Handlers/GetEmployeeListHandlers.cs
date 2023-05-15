@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Cqrs.Data.Handlers
 {
-    public class GetEmployeeListHandlers : IRequestHandler<GetEmployeeListQuery, List<Employee>>
+    public sealed class GetEmployeeListHandlers : IRequestHandler<GetEmployeeListQuery, List<Employee>>
     {
         private readonly IEmployeeRepository _employeeRepository;
 

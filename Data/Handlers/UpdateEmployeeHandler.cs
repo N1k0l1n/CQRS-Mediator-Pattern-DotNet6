@@ -5,7 +5,7 @@ using NuGet.Protocol.Plugins;
 
 namespace Cqrs.Data.Handlers
 {
-    public class UpdateEmployeeHandler : IRequestHandler<UpdateEmployeeCommand, int>
+    public sealed class UpdateEmployeeHandler : IRequestHandler<UpdateEmployeeCommand, int>
     {
         private readonly IEmployeeRepository _employeeRepository;
 

@@ -2,7 +2,7 @@
 
 namespace Cqrs.Data.Command
 {
-    public class UpdateEmployeeCommand : IRequest<int>
+    public sealed class UpdateEmployeeCommand : IRequest<int>
     {
         public UpdateEmployeeCommand(int id, string name, string address, string email, string phone)
         {

@@ -5,7 +5,7 @@ using NuGet.Protocol.Plugins;
 
 namespace Cqrs.Data.Handlers
 {
-    public class DeleteEmployeeHandler : IRequestHandler<DeleteEmployeeCommand, int>
+    public sealed class DeleteEmployeeHandler : IRequestHandler<DeleteEmployeeCommand, int>
     {
         private readonly IEmployeeRepository _employeeRepository;
 

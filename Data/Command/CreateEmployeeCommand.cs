@@ -3,7 +3,7 @@ using MediatR;
 
 namespace Cqrs.Data.Command
 {
-    public class CreateEmployeeCommand : IRequest<Employee>
+    public sealed class CreateEmployeeCommand : IRequest<Employee>
     {
         public CreateEmployeeCommand(string name, string address, string email, string phone)
         {
