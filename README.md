@@ -1,3 +1,4 @@
+![CQRS-Diagram-e1598922649719](https://github.com/N1k0l1n/Cqrs/assets/97979235/ead0d403-79d0-4383-9d23-44a438d2fd97)
 CQRS and the Mediator Pattern
 The MediatR library was built to facilitate two primary software architecture patterns: CQRS and the Mediator pattern. Whilst similar, let’s spend a moment understanding the principles behind each pattern.
 
